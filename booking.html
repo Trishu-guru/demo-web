@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking | Acharya Deepak Sharma</title>
+    <meta name="description" content="Book your puja, consultation, or spiritual ceremony with Acharya Deepak Sharma." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">Acharya Deepak Sharma</a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact Us</a>
+          <a class="active" href="booking.html">Booking</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <kbd>Book a Sacred Ceremony</kbd>
+          <h1>Reserve your date for puja, anushthan, or spiritual consultation.</h1>
+          <p>Share your preferred date, ritual type, and details so we can guide you with the right arrangement.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="booking-card">
+            <h2>Booking Form</h2>
+            <form data-form>
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" placeholder="Your phone number" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Your email" />
+              </div>
+              <div class="form-group">
+                <label for="puja">Puja / Ceremony Type</label>
+                <select id="puja" name="puja">
+                  <option>Mangal Dosh Puja</option>
+                  <option>Kalsarp Dosh Puja</option>
+                  <option>Mahamrityunjay Jaap</option>
+                  <option>Navagraha Shanti</option>
+                  <option>Vastu / Rudra / Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input id="date" name="date" type="date" />
+              </div>
+              <div class="form-group">
+                <label for="message">Additional Details</label>
+                <textarea id="message" name="message" placeholder="Share your concerns or special requests"></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Book Now</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Acharya Deepak Sharma</h3>
+          <p>Book your ceremony with experienced guidance and heartfelt support.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="booking.html">Booking</a>
+          </div>
+        </div>
+        <div>
+          <h3>Connect</h3>
+          <div class="social-links">
+            <a href="https://www.facebook.com/share/v/16dz82LTVd/?mibextid=wwXIfr" target="_blank" rel="noreferrer">f</a>
+            <a href="https://www.youtube.com/@P.deepaksharma9977" target="_blank" rel="noreferrer">▶</a>
+            <a href="https://www.instagram.com/p.deepak_sharma_/profilecard/?igsh=MWM0aHFzY3FvYmhjMQ%3D%3D" target="_blank" rel="noreferrer">ig</a>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">© 2026 Acharya Deepak Sharma. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
